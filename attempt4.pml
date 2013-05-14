@@ -1,6 +1,6 @@
 // Program 4
-/* Keeps running, dont think it goes into starvation
- * due to there probably not being enough processes :/
+/* 
+ * Starvation example. Compile with DNP 
  */
 int turn = 1, count = 0, complete = 0;
 bool qwant = false, pwant = false;
